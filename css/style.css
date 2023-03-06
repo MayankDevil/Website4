@@ -1,0 +1,73 @@
+/*
+    Mayank All Right Reserved
+    website 4 : "Master"
+    CSS : css/style
+*/
+@import "icon.css";
+@import "layout.css";
+@import "intro.css";
+@import "about.css";
+@import "team.css";
+@import "contact.css";
+@import "service.css";
+@import "profile.css";
+@import "responsive.css";
+*
+{
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial','Calibri';
+    color:var(--black);
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+body
+{
+    scroll-behavior: smooth;
+}
+:root
+{
+    --black:#1e272e;
+    --dark:#ecf0f1;
+    --white:#fff;
+    --light:#f1f6fe;
+    --lskyblue:#a2cce3;
+    --skyblue:#4fa6d5;
+    --dskyblue:#68A4C4;
+    --lblue:#17455e;
+    --blue:#0d2735;
+    --dblue:#02131d;
+    /* --blue:#4fa6d5; */
+}
+::selection
+{
+    color:var(--skyblue);
+    background: black;
+}
+::placeholder
+{
+    color:var(--lblue);
+}
+::-ms-scrollbar,
+::-webkit-scrollbar
+{
+    width: 0.5rem;
+    background: var(--blue);
+}
+::-ms-scrollbar-thumb,
+::-webkit-scrollbar-thumb
+{
+    background: var(--light);
+    border-radius: 1rem;
+}
+::-ms-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:hover
+{
+    background: var(--skyblue);
+}
+/*
+    THE END ============================
+*/

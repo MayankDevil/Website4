@@ -1,0 +1,24 @@
+/*
+    Mayank All Right Reserved
+    website 4 : "Master"
+    CSS : css/profile
+*/
+#profile
+{
+    min-height: 100vh;
+}
+/*
+    PRO CSS ---------------------------
+*/
+#pro_page
+{
+    width: 80%;
+    margin: 3rem auto;
+}
+.box
+{
+    border:2px solid var(--dark);
+}
+/*
+    THE END ============================
+*/

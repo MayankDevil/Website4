@@ -1,0 +1,96 @@
+/*
+    Mayank All Right Reserved
+    website 4 : "Master"
+    CSS : css/about
+*/
+
+/*
+    DETAIL CSS -------------------------
+*/
+#detail
+{
+    padding: 3rem 0;
+    background: rgba(255, 255, 255, 0.5) url(../data/us.jpg) no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+}
+#detail_box
+{
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    background:var(--white);
+    border-radius: 5px;
+}
+ul li
+{
+    line-height: 2rem;
+    list-style: none;
+}
+ul li::first-letter
+{
+    padding: 1rem;
+    color:var(--dskyblue);
+}
+/*
+    POLICY CSS -------------------------
+*/
+#policy
+{
+    width: 80%;
+    margin: 3rem auto;
+}
+#policy p
+{
+    text-align: justify;
+}
+#policy p a
+{
+    color:var(--dskyblue);
+}
+.btn_grp
+{
+    padding: 1rem;
+}
+.btn
+{
+    padding: 0.5rem 2rem;
+    font:18px 'calibri';
+    color: var(--white);
+    background:var(--skyblue);
+}
+.btn_grp .btn:hover
+{
+    color:var(--blue);
+    background:var(--lskyblue);
+}
+/*
+    FAQ CSS ----------------------------
+*/
+#faq
+{
+    padding: 3rem 0;
+    /* background:red; */
+}
+#faq > div
+{
+    width:80%;
+    margin: auto;
+}
+details
+{
+    margin: 10px 0;
+    background:var(--light);
+}
+summary
+{
+    list-style-type: circle;
+    padding: 1rem;
+}
+details > p
+{
+    padding: 2rem;
+}
+/*
+    THE END ============================
+*/
